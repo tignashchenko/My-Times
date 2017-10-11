@@ -1,8 +1,11 @@
 header {
   display: flex;
+  align-items: center;
   border-bottom: 1px solid black;
   font-size: 14px;
   font-weight: bold;
+  position: fixed;
+  width: 100%;
 }
 
 header .logo {
@@ -32,4 +35,9 @@ nav span {
 
 a {
   color: black;
+}
+
+.main-content {
+  display: flex;
+  margin-top: 30px;
 }
