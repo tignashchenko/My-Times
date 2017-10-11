@@ -8,7 +8,7 @@ header {
 }
 
 div {
-  border: 1px solid black;
+  
 }
 
 header .logo {
@@ -41,5 +41,18 @@ a {
 
 .main-content {
   display: flex;
+  justify-content: space-between;
   padding-top: 100px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
