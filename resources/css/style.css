@@ -105,3 +105,18 @@ a {
   margin: 0 50px;
   text-align: center;
 }
+
+.image-3 {
+  display: flex;
+  background-image: url('../images/img-story-1.png');
+  height: 300px;
+  justify-content: space-around;
+}
+
+.image-3 span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
